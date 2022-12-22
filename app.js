@@ -1,7 +1,7 @@
 const form = document.querySelector('.quiz-form')
 const finalResult = document.querySelector('.result')
 
-const correctAnswers = ['A', 'A', 'B', 'A']
+const correctAnswers = ['C', 'A', 'D', 'D']
 
 form.addEventListener('submit', event => {
     event.preventDefault()
