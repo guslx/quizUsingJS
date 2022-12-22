@@ -1,0 +1,108 @@
+:root {
+    --fonte-cabecalho: "Carter One";
+    --vermelho-low-opacity: #8E2424;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 10em;
+    background: var(--vermelho-low-opacity);
+}
+
+.link-imagem__header {
+    width: 4em;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.cabecalho-titulo {
+    font-family: var(--fonte-cabecalho);
+    font-size: 3em;
+    color: white;
+    padding-left: .5em;
+    border-left: 2px solid white;
+}
+
+.result {
+    display: none;
+    background-color: #8E242499;
+    padding: .8em;
+    text-align: center;
+    font-size: 36px;
+}
+
+.value-result {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 .2em;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 6vw 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    box-shadow: 0px 2px 18px #8E2424;
+    border-radius: 16px;
+}
+
+.imagem--card {
+    width: 17em;
+    border-radius: 8px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.card-title {
+    font-size: 18px;
+    font-family: 'Carter One';
+}
+
+.options-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: .5em 0;
+}
+
+.div-button {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3em;
+}
+
+
+.btn {
+    background-color: #8E2424BF ;
+    padding: 1em 5em;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #8E2424;
+    cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>quiz tlgd</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">QUIZAPENAS</h1>
+        <a href="https://github.com/guslx">
+            <img class="link-imagem__header" src="assets/github.png" alt="link para github">
+        </a>
+    </header>
+
+    <main class="principal">
+        <div class="result">
+            <p class="text-result">Você acertou 
+                <span class="value-result">0%</span> do quiz!
+            </p>
+        </div>
+        <form class="quiz-form">
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-info">
+                        <h2 class="card-title">QUAL É O NOME DO ÁLBUM?</h2>
+                    </div>
+                    <img class="imagem--card" src="assets/KKB.jpg" alt="album 1">
+                    <div class="card-options">
+                        <p class="options-text">opções</p>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion1" value="A">
+                                Intro Bonito
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion1" value="B">
+                                Bonito Intro
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <h2 class="card-title">QUAL É O NOME DO ÁLBUM?</h2>
+                    </div>
+                    <img class="imagem--card" src="assets/NMH.jpg" alt="album 1">
+                    <div class="card-options">
+                        <p class="options-text">opções</p>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion2" value="A">
+                            In The Aeroplane Over The Sea
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion2" value="B">
+                                King Of Carrots
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-info">
+                        <h2 class="card-title">QUAL É O NOME DO ÁLBUM?</h2>
+                    </div>
+                    <img class="imagem--card" src="assets/whitestripes.jpg" alt="album 1">
+                    <div class="card-options">
+                        <p class="options-text">opções</p>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion3" value="A">
+                               White Blood Cells
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion3" value="B">
+                                Elephant
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <h2 class="card-title">QUAL É O NOME DO ÁLBUM?</h2>
+                    </div>
+                    <img class="imagem--card" src="assets/dprealdp.jpg" alt="album 1">
+                    <div class="card-options">
+                        <p class="options-text">opções</p>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion4" value="A">
+                                Homework
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion4" value="B">
+                                Revolution
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="div-button">
+            <button class="btn" type="submit">Enviar</button>
+        </div>
+    </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
