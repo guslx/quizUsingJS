@@ -11,6 +11,21 @@
     background: var(--vermelho-low-opacity);
 }
 
+@media screen and (max-width: 950px) {
+    .cabecalho {
+        padding: 2em 5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho-titulo {
+        font-size: 2em !important;
+    }
+    .cabecalho {
+        padding: 2em 0.7em;
+    }
+}
+
 .link-imagem__header {
     width: 4em;
     background-color: white;
@@ -46,6 +61,16 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: 6vw 0;
+}
+
+@media screen and (max-width: 1360px) {
+    .cards-container {
+        flex-wrap: wrap;
+    }
+    .card {
+        margin: 5em;
+        margin-bottom: 2em;
+    }
 }
 
 .card {
