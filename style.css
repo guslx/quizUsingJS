@@ -40,7 +40,7 @@
     border-left: 2px solid white;
 }
 
-.result {
+.final-score-container{
     display: none;
     background-color: #8E242499;
     padding: .8em;
